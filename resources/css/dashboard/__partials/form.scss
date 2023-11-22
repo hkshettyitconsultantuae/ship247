@@ -1,0 +1,91 @@
+// Default Form
+.default-form {
+
+    .form-field {
+
+        .form-label {
+            @apply text-black mb-1 block;
+        }
+        .form-input, input[type=tel] {
+            border: 1px solid var(--grey-color);
+            @apply rounded px-4 py-2.5 w-full;
+
+            &::placeholder {
+                color: var(--grey-color);
+            }
+
+            &:focus {
+                border-color: var(--secondary-color);
+                --tw-ring-color: none;
+            }
+        }
+
+        .PhoneInputCountry {
+            // width: 60px;
+            border: 1px solid var(--grey-color);
+            @apply rounded px-2 w-16;
+        }
+
+        .css-t3ipsp-control {
+            border-color: var(--secondary-color);;
+        }
+        
+        .css-13cymwt-control, .css-t3ipsp-control {
+            min-height: auto;
+            box-shadow: none !important;
+
+            &:focus, &:hover {
+                border-color: var(--secondary-color);;
+                box-shadow: none !important;
+            }
+
+            .css-art2ul-ValueContainer2 {
+                @apply px-3 py-2;
+            }
+        }
+
+        &.checkbox-field {
+            @apply flex items-center;
+
+            .form-checkbox {
+                border: 1px solid var(--grey-color);
+                color: var(--secondary-color);;
+                @apply rounded-md w-6 h-6;
+
+                &:focus, &:checked {
+                    border-color: var(--secondary-color);;
+                    @apply rounded-md w-6 h-6;
+                    --tw-ring-color: none;
+                }
+            }
+
+            .text {
+                @apply ml-2.5;
+            }
+        }
+
+        &.radio-field {
+            @apply flex items-center;
+
+            .form-radio {
+                border-color: var(--grey-color);
+                color: var(--secondary-color);;
+                @apply w-6 h-6;
+
+                &:focus, &:checked {
+                    border-color: var(--secondary-color);;
+                    // @apply rounded-full w-6 h-6;
+                    --tw-ring-color: var(--secondary-color);;
+                }
+            }
+
+            .text {
+                @apply ml-2.5;
+            }
+        }
+    }
+
+    [type='text'], [type='email'], [type='url'], [type='password'], [type='number'], [type='date'], [type='datetime-local'], [type='month'], [type='search'], [type='tel'], [type='time'], [type='week'], [multiple], textarea, select {
+        // --tw-ring-color: transparent !important;
+    }
+}

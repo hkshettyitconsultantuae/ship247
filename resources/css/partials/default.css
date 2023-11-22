@@ -1,0 +1,207 @@
+.primary-bg {
+  background-color: var(--primary-color); }
+
+.secondary-bg {
+  background-color: var(--secondary-color); }
+
+.primary-color {
+  color: var(--primary-color); }
+
+.secondary-color {
+  color: var(--secondary-color); }
+
+.primary-font-light {
+  font-family: var(--primary-font-light); }
+
+.primary-font-regular {
+  font-family: var(--primary-font-book); }
+
+.primary-font-medium {
+  font-family: var(--primary-font-medium); }
+
+.primary-font-bold {
+  font-family: var(--primary-font-bold); }
+
+.secondary-font-regular {
+  font-family: var(--secondary-font-bold); }
+
+.sea-color {
+  color: #F0E9FF; }
+
+.sea-bg {
+  background-color: #F0E9FF; }
+
+.land-color {
+  color: #E9FFF1; }
+
+.land-bg {
+  background-color: #E9FFF1; }
+
+.air-color {
+  color: #E9F2FF; }
+
+.air-bg {
+  background-color: #E9F2FF; }
+
+body {
+  background-color: var(--lgrey-color);
+  font-family: var(--primary-font-book);
+  color: var(--primary-color);
+  overflow-x: hidden; }
+
+.default-heading {
+  font-size: clamp(26px, 4vw, 36px);
+  @apply font-bold uppercase md:mb-[40px] mb-[36px] leading-tight;
+  font-family: var(--secondary-font-bold); }
+  .default-heading.small-heading {
+    font-size: clamp(24px, 4vw, 30px); }
+  .default-heading.white {
+    @apply text-white; }
+  .default-heading.small-size {
+    @apply text-xl; }
+  .default-heading.small-margin {
+    @apply mb-auto; }
+
+.default-subheading {
+  font-size: clamp(18px, 2vw, 24px);
+  @apply uppercase;
+  font-family: var(--primary-font-bold); }
+  .default-subheading.white {
+    @apply text-white; }
+
+.heading-style-v1 {
+  @apply bg-no-repeat mb-14; }
+  @media (max-width: 767px) {
+    .heading-style-v1 {
+      @apply mb-7; } }
+  .heading-style-v1 .title {
+    font-size: clamp(38px, 4vw, 70px);
+    @apply font-bold uppercase leading-none mb-2;
+    font-family: var(--secondary-font-bold); }
+  .heading-style-v1 .subtitle {
+    color: var(--secondary-color);
+    font-family: var(--primary-font-bold);
+    @apply uppercase tracking-[2px] font-bold;
+    font-size: clamp(18px, 2vw, 20px); }
+
+.default-content {
+  @apply text-black; }
+  .default-content.white {
+    @apply text-white; }
+
+.default-button {
+  @apply inline-flex items-center pb-1 pr-8 relative text-base font-bold uppercase text-white transition-all;
+  font-family: var(--primary-font-bold); }
+  .default-button:before {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full;
+    height: 2px;
+    background-color: var(--secondary-color);
+    transition: 0.2s; }
+  .default-button:after {
+    content: '';
+    background-image: url(/images/svg/button-arrow.svg);
+    @apply bg-no-repeat absolute right-1 top-1 h-3.5 w-3.5;
+    transition: 0.4s; }
+  .default-button:hover:before {
+    bottom: 3px; }
+  .default-button:hover:after {
+    @apply -right-1; }
+  .default-button.red {
+    @apply text-black; }
+    .default-button.red:after {
+      background-image: url(/images/svg/button-arrow-red.svg); }
+  .default-button.small-button {
+    @apply text-sm pr-6; }
+
+.default-button-v2 {
+  background-color: var(--secondary-color);
+  @apply text-white uppercase p-4 inline-flex items-center justify-center relative text-sm overflow-hidden min-w-[160px];
+  font-family: var(--primary-font-bold);
+  border-radius: 40px; }
+  .default-button-v2 span {
+    position: relative;
+    z-index: 2; }
+  .default-button-v2.small-button {
+    @apply text-xs py-2 px-5; }
+  .default-button-v2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: white;
+    border-radius: 40px;
+    transition: width 0.5s;
+    z-index: 1; }
+  .default-button-v2:hover {
+    color: var(--secondary-color); }
+    .default-button-v2:hover:after {
+      width: 100%; }
+  .default-button-v2.outline-button {
+    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+    color: var(--secondary-color); }
+    .default-button-v2.outline-button:after {
+      background-color: var(--secondary-color); }
+    .default-button-v2.outline-button:hover {
+      color: white; }
+      .default-button-v2.outline-button:hover:after {
+        width: 100%; }
+    .default-button-v2.outline-button.white-button {
+      color: white;
+      border-color: white; }
+  @media (max-width: 767px) {
+    .default-button-v2 {
+      @apply text-center;
+      min-width: 220px; } }
+  .default-button-v2.primary-bg {
+    background-color: var(--primary-color); }
+    .default-button-v2.primary-bg:hover {
+      color: var(--primary-color); }
+
+.invoice-button {
+  background-color: var(--primary-color);
+  @apply text-white uppercase px-3 py-6 inline-block relative;
+  font-family: var(--primary-font-bold);
+  border-radius: 40px; }
+  .invoice-button.small {
+    @apply text-xs py-3 px-5; }
+  .invoice-button span {
+    position: relative;
+    z-index: 2; }
+  .invoice-button.small {
+    @apply text-xs py-3 px-5; }
+  .invoice-button:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: white;
+    border-radius: 40px;
+    transition: width 0.5s;
+    z-index: 1; }
+  .invoice-button:hover {
+    color: var(--primary-color); }
+    .invoice-button:hover:after {
+      width: 100%; }
+
+.shadow-box {
+  @apply md:p-10 p-6 bg-white rounded-xl;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); }
+  .shadow-box.large-radius {
+    border-radius: 40px; }
+  .shadow-box.large-spacing {
+    @apply lg:px-14 px-6 pb-10; }
+  .shadow-box.small-box {
+    @apply p-6; }
+  .shadow-box.xsmall-box {
+    @apply p-4; }
+
+.default-container {
+  @apply lg:mx-8 mx-4; }
+
+/*# sourceMappingURL=default.css.map */

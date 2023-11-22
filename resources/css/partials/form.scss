@@ -1,0 +1,242 @@
+// Default Form
+.default-form {
+
+    :where(.css-dev-only-do-not-override-k7429z).ant-select-multiple .ant-select-selection-overflow {
+        overflow-x: hidden !important;
+        flex-wrap: nowrap !important;
+    }
+
+    :where(.css-dev-only-do-not-override-k7429z).ant-select-multiple .ant-select-selection-placeholder {
+        text-transform: uppercase;
+        font-size: 18px;
+        @extend .primary-font-medium;
+    }
+
+    .form-field {
+        @apply w-full mb-0;
+
+        .select2-container {
+            max-width: 100%;
+            width: 100% !important;
+        }
+
+        .form-label-small {
+            @apply text-xs uppercase text-gray-400 block mb-1;
+        }
+
+        .form-label {
+            @apply text-black mb-1 block;
+
+            &.small-label {
+                @apply text-[10px];
+            }
+        }
+        .form-input, input[type=tel] {
+            border: 1px solid var(--grey-color);
+            @apply rounded px-4 py-4;
+            min-height: 60px;
+            font-weight: 400;
+
+            &::placeholder {
+                color: var(--grey-color);
+                text-transform: uppercase;
+                font-family: var(--primary-font-medium);
+                font-weight: 400;
+            }
+
+            &:focus {
+                border-color: var(--secondary-color);
+                --tw-ring-color: none;
+            }
+
+            &.small-input {
+                @apply px-4 py-2;
+                font-weight: 400;
+                font-size: 14px;
+            }
+        }
+
+        .ant-form-item-explain {
+            text-align: left !important;
+        }
+
+        .css-b62m3t-container, .css-13cymwt-control, .default-form .form-field .css-13cymwt-control, .default-form .form-field .css-t3ipsp-control {
+            height: 58px !important;
+        }
+
+        .ant-select-arrow {
+            //display: none !important;
+        }
+
+        .ant-select-selector, .ant-picker {
+            border-color: #C6C6C6 !important;
+            min-height: 60px !important;
+            padding: 10px 14px !important;
+            font-family: var(--primary-font-medium);
+            font-size: 14px !important;
+            text-align: left !important;
+            justify-content: flex-start !important;
+            align-items: center !important;
+            border-radius: 4px !important;
+            // height: 46px !important;
+
+            input {
+                font-size: 14px !important;
+                border-radius: 4px !important;
+                font-family: var(--primary-font-medium);
+                text-transform: uppercase;
+                // height: 42px !important;
+
+                &:focus {
+                    --tw-ring-color: transparent;
+                }
+            }
+        }
+
+        .ant-select-selection-search-input {
+            height: 60px !important;
+        }
+
+        :where(.css-i0102m).ant-select-single.ant-select-lg {
+            height: 60px !important;
+        }
+
+        .ant-form-item-control-input-content > div {
+            height: 60px !important;
+        }
+
+        .ant-select-selection-search {
+            margin-inline-start: 0 !important
+        }
+
+        .ant-select-selection-overflow-item .ant-select-selection-search-input {
+            height: auto !important;
+        }
+
+        .ant-select-selection-item {
+            line-height: 2 !important;
+        }
+
+        .ant-btn-primary {
+            border: none !important;
+        }
+
+        .ant-picker-suffix .ant-form-item-feedback-icon, .anticon-check-circle {
+            display: none !important;
+        }
+
+        .ant-picker-suffix .anticon-calendar {
+            margin: 0;
+        }
+
+        .PhoneInputCountry {
+            // width: 70px;
+            min-width: 20%;
+            border: 1px solid var(--grey-color);
+            @apply rounded px-2 justify-between;
+        }
+
+        .css-t3ipsp-control {
+            border-color: var(--secondary-color);;
+        }
+        
+        .css-13cymwt-control, .css-t3ipsp-control {
+            min-height: auto;
+            height: 58px !important;
+            box-shadow: none !important;
+
+            .react-select-2-input {
+                // --tw-ring-color: transparent !important;
+                box-shadow: none !important;
+            }
+
+            &:focus, &:hover {
+                border-color: var(--secondary-color);;
+                box-shadow: none !important;
+            }
+
+            .css-art2ul-ValueContainer2 {
+                @apply px-3 py-2;
+            }
+        }
+
+        // Select 2
+        .select2-selection {
+            min-height: 60px !important;
+        }
+        .select2-selection > span {
+            line-height: 60px !important;
+            padding-left: 16px !important;
+        }
+        .select2-selection .select2-selection__arrow {
+            right: 16px !important;
+            top: 26% !important;
+        }
+
+        &.checkbox-field {
+            @apply flex items-center;
+
+            .form-checkbox {
+                border: 1px solid var(--grey-color);
+                color: var(--secondary-color);;
+                @apply rounded-md w-5 h-5;
+
+                &:focus, &:checked {
+                    border-color: var(--secondary-color);;
+                    @apply rounded-md w-5 h-5;
+                    --tw-ring-color: none;
+                }
+            }
+
+            .text {
+                @apply ml-2.5;
+                font-size: 14px;
+            }
+        }
+
+        &.radio-field {
+            @apply flex items-center;
+
+            .form-radio {
+                border-color: var(--grey-color);
+                color: var(--secondary-color);;
+                @apply w-5 h-5;
+
+                &:focus, &:checked {
+                    border-color: var(--secondary-color);;
+                    // @apply rounded-full w-6 h-6;
+                    --tw-ring-color: var(--secondary-color);;
+                }
+            }
+
+            .text {
+                @apply ml-2.5;
+                font-size: 14px;
+            }
+        }
+
+        .error-field {
+            @apply text-red-600 text-xs;
+        }
+    }
+
+    &.auth-form {
+        .form-field {
+            .form-input, .PhoneInputInput {
+                // @apply capitalize;
+                font-family: var(--primary-font-book);
+
+                &::placeholder {
+                    color: var(--grey-color);
+                    text-transform: none;
+                    font-family: var(--primary-font-book);
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    [type='text'], [type='email'], [type='url'], [type='password'], [type='number'], [type='date'], [type='datetime-local'], [type='month'], [type='search'], [type='tel'], [type='time'], [type='week'], [multiple], textarea, select {
+        box-shadow: none !important;
+    }
+}

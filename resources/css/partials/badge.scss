@@ -1,0 +1,38 @@
+.badge {
+    @apply px-6 py-2 rounded-full text-center text-xs uppercase;
+    font-family: var(--primary-font-bold);
+    min-width: 145px;
+
+    &.progress {
+        background-color: #FFF8DB;
+        color: var(--primary-color);
+    }
+
+    &.completed {
+        background-color: #E9F2FF;
+        color: var(--primary-color);
+    }
+
+    &.cancel {
+        background-color: #FFE8E8;
+        color: var(--primary-color);
+    }
+
+    &.hold {
+        background-color: #F5F1FF;
+        color: var(--primary-color);
+    }
+
+    &.success {
+        @apply bg-green-100 text-green-800;
+    }
+
+    &.pending {
+        @apply bg-red-100 text-red-800;
+    }
+
+    &.small-badge {
+        @apply px-4 py-1 text-[10px] tracking-widest;
+        font-family: var(--primary-font-medium);
+    }
+}

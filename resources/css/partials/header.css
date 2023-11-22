@@ -1,0 +1,52 @@
+.primary-header {
+  border-bottom: 1px solid var(--grey-color);
+  @apply py-4; }
+  .primary-header .header-logo {
+    width: 140px; }
+  .primary-header .nav-section {
+    @apply xl:flex justify-end items-center xl:relative fixed xl:z-0 z-30 xl:top-0 top-[80px] right-0 h-full w-full; }
+    @media (max-width: 1024px) {
+      .primary-header .nav-section {
+        background-color: #F6F6F6; } }
+  .primary-header .navigation {
+    @apply flex xl:flex-row flex-col xl:pt-0 pt-8; }
+    .primary-header .navigation li {
+      @apply mx-5; }
+      .primary-header .navigation li a {
+        @apply text-base uppercase relative;
+        font-family: var(--primary-font-bold); }
+        .primary-header .navigation li a:hover {
+          color: var(--secondary-color); }
+          .primary-header .navigation li a:hover:after {
+            @apply absolute -bottom-8 left-0 right-0 h-1 w-full;
+            content: '';
+            background-color: var(--secondary-color); }
+        @media (max-width: 1024px) {
+          .primary-header .navigation li a {
+            @apply text-[30px] my-6 inline-block; }
+            .primary-header .navigation li a:after {
+              @apply -bottom-4; } }
+  .primary-header .login-area {
+    display: flex; }
+    .primary-header .login-area .search-icon {
+      background-color: #F0E9FF;
+      @apply rounded-lg w-10 h-10 flex items-center justify-center; }
+    .primary-header .login-area .login-icon {
+      @apply flex items-center justify-center ml-4; }
+      .primary-header .login-area .login-icon .icon {
+        background-color: #FBE8E8;
+        @apply rounded-lg w-10 h-10 flex items-center justify-center; }
+      .primary-header .login-area .login-icon .text {
+        @apply text-base font-bold uppercase ml-3;
+        font-family: var(--primary-font-bold); }
+    @media (max-width: 1024px) {
+      .primary-header .login-area {
+        @apply mt-[40px]; }
+        .primary-header .login-area .login-icon {
+          background-color: #FBE8E8;
+          padding: 6px 20px 6px 10px;
+          border-radius: 6px; }
+          .primary-header .login-area .login-icon .text {
+            font-size: 20px; } }
+
+/*# sourceMappingURL=header.css.map */

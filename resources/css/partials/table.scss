@@ -1,0 +1,119 @@
+table {
+    &.shipping-details {
+        @apply w-full my-6;
+
+        tr {
+            @apply m-0;
+
+            td {
+                @apply py-5;
+
+                &:first-child {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    &.shipping-pricing {
+        @apply w-full my-6;
+
+        tr {
+            @apply m-0;
+            border-bottom: 1px solid var(--grey-color);
+
+            td {
+                @apply py-3;
+
+                &:first-child {
+                    width: 70%;
+                }
+            }
+
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+    }
+
+    &.invoice-table {
+        width: 800px;
+        @apply mt-8;
+
+        td {
+            @apply pb-8;
+            width: 50%;
+        }
+
+        .head {
+            @apply uppercase text-sm block;
+            color: #848484;
+        }
+
+        .value {
+            font-family: var(--primary-font-medium);
+        }
+
+        &.detail {
+            @apply my-6;
+            
+            td {
+                @apply pb-4 pt-4;
+                border-bottom: 1px solid #C6C6C6;
+            }
+
+            tr:last-child {
+                td {
+                    border-bottom: 0;
+                }
+            }
+        }
+
+        &.price {
+            @apply m-0 mt-2;
+
+            .value {
+                font-family: var(--primary-font-bold);
+            }
+        }
+    }
+
+    &.price-breakdown-table {
+        @apply w-full;
+        border-spacing: 2px;
+        border-collapse: separate;
+        tr {
+            th {
+                background-color: #f6f7f9;
+                @apply py-1.5 px-3 text-xs;
+                font-family: var(--primary-font-light);
+            }
+    
+            td {
+                @apply uppercase text-[10px] py-1 px-4 border-b;
+                border-color: #eaeff3;
+            }
+        }
+    
+        .checkbox-field {
+            @apply flex items-center gap-3;
+    
+            .form-checkbox {
+                border: 1px solid var(--grey-color);
+                color: var(--secondary-color);;
+                @apply rounded-sm w-4 h-4;
+    
+                &:focus, &:checked {
+                    border-color: var(--secondary-color);;
+                    @apply rounded-md w-4 h-4;
+                    --tw-ring-color: none;
+                }
+            }
+    
+            .text {
+                @apply ml-2.5;
+                font-size: 14px;
+            }
+        }
+    }
+}

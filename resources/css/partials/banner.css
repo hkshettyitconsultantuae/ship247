@@ -1,0 +1,85 @@
+.banner-bg-area {
+  background-image: url(../../images/body-image.png);
+  background-size: 70%;
+  background-position: bottom center;
+  background-repeat: no-repeat; }
+  @media (max-width: 1024px) {
+    .banner-bg-area {
+      background-position: top center;
+      background-size: 160%; } }
+
+.homepage-banner {
+  @apply flex flex-col items-center xl:min-h-screen text-center 4xl:pt-[180px] 2xl:pt-[140px] pt-[80px] xl:mb-0 mb-[120px]; }
+  .homepage-banner .subtitle {
+    @apply font-bold text-[54px] leading-none;
+    color: var(--primary-color);
+    font-family: var(--secondary-font-bold); }
+    @media (max-width: 767px) {
+      .homepage-banner .subtitle {
+        @apply text-3xl; } }
+    @media (max-width: 576px) {
+      .homepage-banner .subtitle {
+        @apply text-2xl; } }
+  .homepage-banner .title {
+    font-size: clamp(30px, 8vw, 80px);
+    color: var(--primary-color);
+    font-family: var(--secondary-font-bold);
+    line-height: 1;
+    margin-top: -6px; }
+    @media (max-width: 767px) {
+      .homepage-banner .title {
+        line-height: 1.2; } }
+  .homepage-banner .desc {
+    color: var(--secondary-color);
+    @apply text-xl font-bold md:mt-2 mt-0;
+    font-family: var(--primary-font-bold); }
+    @media (max-width: 576px) {
+      .homepage-banner .desc {
+        @apply text-xs; } }
+
+.inner-banner {
+  @apply md:flex items-start justify-between md:mt-24 mt-6 pb-16;
+  min-height: calc(100vh - 560px); }
+  .inner-banner .heading-style-v1 {
+    @apply md:mt-0 mt-16; }
+    .inner-banner .heading-style-v1 .title {
+      font-size: clamp(38px, 7vw, 100px); }
+  .inner-banner .default-content {
+    @apply md:mt-[50px] mt-[30px]; }
+  .inner-banner.align-bottom {
+    @apply items-end; }
+  .inner-banner .image {
+    @apply md:mt-0 mt-9 relative; }
+    .inner-banner .image img {
+      border-radius: 10px; }
+    .inner-banner .image:after {
+      content: '';
+      position: absolute;
+      left: -40px;
+      bottom: -40px;
+      z-index: -1;
+      background-image: url(../../images/svg/red-dot-pattern.svg);
+      background-repeat: no-repeat;
+      background-position: left bottom;
+      height: 120px;
+      width: 120px; }
+  .inner-banner.service-banner .image:after {
+    left: auto;
+    right: 60px;
+    bottom: 40px; }
+    @media (max-width: 767px) {
+      .inner-banner.service-banner .image:after {
+        bottom: 0;
+        right: 0; } }
+  .inner-banner.resources-banner .image:after {
+    left: auto;
+    right: -40px;
+    bottom: 140px; }
+    @media (max-width: 767px) {
+      .inner-banner.resources-banner .image:after {
+        right: -20px;
+        bottom: 60px; } }
+  .inner-banner.workwithus-banner .image:after {
+    right: 320px; }
+
+/*# sourceMappingURL=banner.css.map */

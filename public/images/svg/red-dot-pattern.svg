@@ -1,0 +1,83 @@
+<svg id="Dot_Pattern" data-name="Dot Pattern" xmlns="http://www.w3.org/2000/svg" width="111" height="86" viewBox="0 0 111 86">
+  <g id="row">
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="3" cy="3" r="3" fill="#d43031"/>
+    <circle id="Ellipse_42" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(18)" fill="#d43031"/>
+    <circle id="Ellipse_44" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(35)" fill="#d43031"/>
+    <circle id="Ellipse_43" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(53)" fill="#d43031"/>
+    <circle id="Ellipse_47" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(88)" fill="#d43031"/>
+    <circle id="Ellipse_46" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(105)" fill="#d43031"/>
+  </g>
+  <g id="row-2" data-name="row" transform="translate(0 16)">
+    <circle id="Ellipse_41-2" data-name="Ellipse 41" cx="3" cy="3" r="3" fill="#d43031"/>
+    <circle id="Ellipse_42-2" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(18)" fill="#d43031"/>
+    <circle id="Ellipse_44-2" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(35)" fill="#d43031"/>
+    <circle id="Ellipse_43-2" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(53)" fill="#d43031"/>
+    <circle id="Ellipse_48" data-name="Ellipse 48" cx="3" cy="3" r="3" transform="translate(70)" fill="#d43031"/>
+    <circle id="Ellipse_74" data-name="Ellipse 74" cx="3" cy="3" r="3" transform="translate(70 -16)" fill="#d43031"/>
+    <circle id="Ellipse_47-2" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(88)" fill="#d43031"/>
+    <circle id="Ellipse_46-2" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(105)" fill="#d43031"/>
+  </g>
+  <g id="row-3" data-name="row" transform="translate(0 32)">
+    <circle id="Ellipse_41-3" data-name="Ellipse 41" cx="3" cy="3" r="3" fill="#d43031"/>
+    <circle id="Ellipse_42-3" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(18)" fill="#d43031"/>
+    <circle id="Ellipse_44-3" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(35)" fill="#d43031"/>
+    <circle id="Ellipse_43-3" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(53)" fill="#d43031"/>
+    <circle id="Ellipse_48-2" data-name="Ellipse 48" cx="3" cy="3" r="3" transform="translate(70)" fill="#d43031"/>
+    <circle id="Ellipse_47-3" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(88)" fill="#d43031"/>
+    <circle id="Ellipse_46-3" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(105)" fill="#d43031"/>
+  </g>
+  <g id="row-4" data-name="row" transform="translate(0 32)">
+    <circle id="Ellipse_41-4" data-name="Ellipse 41" cx="3" cy="3" r="3" fill="#d43031"/>
+    <circle id="Ellipse_42-4" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(18)" fill="#d43031"/>
+    <circle id="Ellipse_44-4" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(35)" fill="#d43031"/>
+    <circle id="Ellipse_43-4" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(53)" fill="#d43031"/>
+    <circle id="Ellipse_48-3" data-name="Ellipse 48" cx="3" cy="3" r="3" transform="translate(70)" fill="#d43031"/>
+    <circle id="Ellipse_47-4" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(88)" fill="#d43031"/>
+    <circle id="Ellipse_46-4" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(105)" fill="#d43031"/>
+  </g>
+  <g id="row-5" data-name="row" transform="translate(0 48)">
+    <circle id="Ellipse_41-5" data-name="Ellipse 41" cx="3" cy="3" r="3" fill="#d43031"/>
+    <circle id="Ellipse_42-5" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(18)" fill="#d43031"/>
+    <circle id="Ellipse_44-5" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(35)" fill="#d43031"/>
+    <circle id="Ellipse_43-5" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(53)" fill="#d43031"/>
+    <circle id="Ellipse_48-4" data-name="Ellipse 48" cx="3" cy="3" r="3" transform="translate(70)" fill="#d43031"/>
+    <circle id="Ellipse_47-5" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(88)" fill="#d43031"/>
+    <circle id="Ellipse_46-5" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(105)" fill="#d43031"/>
+  </g>
+  <g id="row-6" data-name="row" transform="translate(0 48)">
+    <circle id="Ellipse_41-6" data-name="Ellipse 41" cx="3" cy="3" r="3" fill="#d43031"/>
+    <circle id="Ellipse_42-6" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(18)" fill="#d43031"/>
+    <circle id="Ellipse_44-6" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(35)" fill="#d43031"/>
+    <circle id="Ellipse_43-6" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(53)" fill="#d43031"/>
+    <circle id="Ellipse_48-5" data-name="Ellipse 48" cx="3" cy="3" r="3" transform="translate(70)" fill="#d43031"/>
+    <circle id="Ellipse_47-6" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(88)" fill="#d43031"/>
+    <circle id="Ellipse_46-6" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(105)" fill="#d43031"/>
+  </g>
+  <g id="row-7" data-name="row" transform="translate(0 64)">
+    <circle id="Ellipse_41-7" data-name="Ellipse 41" cx="3" cy="3" r="3" fill="#d43031"/>
+    <circle id="Ellipse_42-7" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(18)" fill="#d43031"/>
+    <circle id="Ellipse_44-7" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(35)" fill="#d43031"/>
+    <circle id="Ellipse_43-7" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(53)" fill="#d43031"/>
+    <circle id="Ellipse_48-6" data-name="Ellipse 48" cx="3" cy="3" r="3" transform="translate(70)" fill="#d43031"/>
+    <circle id="Ellipse_47-7" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(88)" fill="#d43031"/>
+    <circle id="Ellipse_46-7" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(105)" fill="#d43031"/>
+  </g>
+  <g id="row-8" data-name="row" transform="translate(0 64)">
+    <circle id="Ellipse_41-8" data-name="Ellipse 41" cx="3" cy="3" r="3" fill="#d43031"/>
+    <circle id="Ellipse_42-8" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(18)" fill="#d43031"/>
+    <circle id="Ellipse_44-8" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(35)" fill="#d43031"/>
+    <circle id="Ellipse_43-8" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(53)" fill="#d43031"/>
+    <circle id="Ellipse_48-7" data-name="Ellipse 48" cx="3" cy="3" r="3" transform="translate(70)" fill="#d43031"/>
+    <circle id="Ellipse_47-8" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(88)" fill="#d43031"/>
+    <circle id="Ellipse_46-8" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(105)" fill="#d43031"/>
+  </g>
+  <g id="row-9" data-name="row" transform="translate(0 80)">
+    <circle id="Ellipse_41-9" data-name="Ellipse 41" cx="3" cy="3" r="3" fill="#d43031"/>
+    <circle id="Ellipse_42-9" data-name="Ellipse 42" cx="3" cy="3" r="3" transform="translate(18)" fill="#d43031"/>
+    <circle id="Ellipse_44-9" data-name="Ellipse 44" cx="3" cy="3" r="3" transform="translate(35)" fill="#d43031"/>
+    <circle id="Ellipse_43-9" data-name="Ellipse 43" cx="3" cy="3" r="3" transform="translate(53)" fill="#d43031"/>
+    <circle id="Ellipse_48-8" data-name="Ellipse 48" cx="3" cy="3" r="3" transform="translate(70)" fill="#d43031"/>
+    <circle id="Ellipse_47-9" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(88)" fill="#d43031"/>
+    <circle id="Ellipse_46-9" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(105)" fill="#d43031"/>
+  </g>
+</svg>

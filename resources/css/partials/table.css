@@ -1,0 +1,67 @@
+table.shipping-details {
+  @apply w-full my-6; }
+  table.shipping-details tr {
+    @apply m-0; }
+    table.shipping-details tr td {
+      @apply py-5; }
+      table.shipping-details tr td:first-child {
+        width: 70%; }
+table.shipping-pricing {
+  @apply w-full my-6; }
+  table.shipping-pricing tr {
+    @apply m-0;
+    border-bottom: 1px solid var(--grey-color); }
+    table.shipping-pricing tr td {
+      @apply py-3; }
+      table.shipping-pricing tr td:first-child {
+        width: 70%; }
+    table.shipping-pricing tr:last-child {
+      border-bottom: 0; }
+table.invoice-table {
+  width: 800px;
+  @apply mt-8; }
+  table.invoice-table td {
+    @apply pb-8;
+    width: 50%; }
+  table.invoice-table .head {
+    @apply uppercase text-sm block;
+    color: #848484; }
+  table.invoice-table .value {
+    font-family: var(--primary-font-medium); }
+  table.invoice-table.detail {
+    @apply my-6; }
+    table.invoice-table.detail td {
+      @apply pb-4 pt-4;
+      border-bottom: 1px solid #C6C6C6; }
+    table.invoice-table.detail tr:last-child td {
+      border-bottom: 0; }
+  table.invoice-table.price {
+    @apply m-0 mt-2; }
+    table.invoice-table.price .value {
+      font-family: var(--primary-font-bold); }
+table.price-breakdown-table {
+  @apply w-full;
+  border-spacing: 2px;
+  border-collapse: separate; }
+  table.price-breakdown-table tr th {
+    background-color: #f6f7f9;
+    @apply py-1.5 px-3 text-xs;
+    font-family: var(--primary-font-light); }
+  table.price-breakdown-table tr td {
+    @apply uppercase text-[10px] py-1 px-4 border-b;
+    border-color: #eaeff3; }
+  table.price-breakdown-table .checkbox-field {
+    @apply flex items-center gap-3; }
+    table.price-breakdown-table .checkbox-field .form-checkbox {
+      border: 1px solid var(--grey-color);
+      color: var(--secondary-color);
+      @apply rounded-sm w-4 h-4; }
+      table.price-breakdown-table .checkbox-field .form-checkbox:focus, table.price-breakdown-table .checkbox-field .form-checkbox:checked {
+        border-color: var(--secondary-color);
+        @apply rounded-md w-4 h-4;
+        --tw-ring-color: none; }
+    table.price-breakdown-table .checkbox-field .text {
+      @apply ml-2.5;
+      font-size: 14px; }
+
+/*# sourceMappingURL=table.css.map */

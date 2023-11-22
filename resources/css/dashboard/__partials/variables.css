@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Gotham_Light;
+  src: url(/fonts/Gotham-Light.otf); }
+@font-face {
+  font-family: Gotham_Regular;
+  src: url(/fonts/Gotham-Book.otf); }
+@font-face {
+  font-family: Gotham_Medium;
+  src: url(/fonts/Gotham-Medium.otf); }
+@font-face {
+  font-family: Gotham_Bold;
+  src: url(/fonts/Gotham-Bold.otf); }
+@font-face {
+  font-family: Raxtor_Bold;
+  src: url(/fonts/Raxtor-Bold.ttf); }
+:root {
+  --primary-font-light: 'Gotham_Light';
+  --primary-font-book: 'Gotham_Regular';
+  --primary-font-medium: 'Gotham_Medium';
+  --primary-font-bold: 'Gotham_Bold';
+  --secondary-font-bold: 'Raxtor_Bold';
+  --primary-color: #423460;
+  --secondary-color: #D43031;
+  --purple-color: #2C1E3F;
+  --grey-color: #C6C6C6;
+  --lgrey-color: #F6F6F6; }
+
+/*# sourceMappingURL=variables.css.map */

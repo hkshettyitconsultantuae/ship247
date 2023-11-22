@@ -1,0 +1,46 @@
+.accordion-section {
+  @apply mb-14; }
+  .accordion-section .accordion-head {
+    @apply font-bold relative mb-4 py-6 cursor-pointer pr-10 text-2xl w-full text-left;
+    font-family: var(--primary-font-bold);
+    border-bottom: 2px solid var(--grey-color); }
+    @media (max-width: 991px) {
+      .accordion-section .accordion-head {
+        @apply text-xl; } }
+    .accordion-section .accordion-head:after {
+      content: '';
+      @apply absolute right-0 top-0 bottom-0 my-auto h-6 w-6 bg-no-repeat bg-center;
+      color: var(--secondary-color);
+      background-image: url("../../images/svg/plus-icon.svg"); }
+  .accordion-section .accordion-body {
+    transition: max-height 1s ease-out;
+    @apply overflow-hidden; }
+  .accordion-section.opened .accordion-head:after {
+    background-image: url("../../images/svg/minus-icon.svg"); }
+  .accordion-section.opened .accordion-body {
+    @apply mb-6;
+    max-height: 200px; }
+
+.product-price-breakdown {
+  @apply -m-6 mt-4; }
+  .product-price-breakdown .accordion-head {
+    @apply block uppercase text-xs w-full py-1.5 px-3 text-center relative h-7;
+    background-color: #EEEEEE;
+    font-family: var(--primary-font-medium); }
+    .product-price-breakdown .accordion-head:after {
+      content: 'View Details';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 6px;
+      font-size: 10px;
+      color: #8F8F8F; }
+  .product-price-breakdown .accordion-head[aria-expanded="true"]:after {
+    content: 'Hide Details'; }
+  .product-price-breakdown .accordion-body {
+    @apply py-6 px-5 text-left text-sm; }
+    .product-price-breakdown .accordion-body .title {
+      font-family: var(--secondary-font-bold);
+      @apply text-lg mb-4; }
+
+/*# sourceMappingURL=accordian.css.map */

@@ -1,0 +1,57 @@
+
+.primary-footer {
+    background-color: var(--primary-color);
+    @apply md:py-16 py-10 bg-no-repeat bg-left-bottom;
+    background-image: url(/images/svg/footer-dots.svg);
+    background-size: 220px;
+
+    .logo {
+        max-width: 140px;
+    }
+
+    .footer-link {
+        .head {
+            @apply text-white pt-8 relative uppercase;
+            font-family: var(--primary-font-bold);
+
+            &:before {
+                @apply h-1 w-6 absolute top-0 left-0;
+                content: '';
+                background-color: var(--secondary-color);
+            }
+        }
+
+        .listing {
+            @apply md:mt-12 mt-8;
+            li {
+                @apply mb-5;
+            }
+            a {
+                @apply text-white uppercase text-sm;
+            }
+        }
+
+        .contact-list {
+            @apply md:mt-12 mt-8;
+            li {
+                @apply flex md:items-center items-start mb-5 md:flex-row flex-col;
+
+                span {
+                    @apply text-white text-sm font-bold md:ml-1.5 md:mt-0 mt-1;
+                }
+            }
+        }
+
+        .social-media {
+            @apply md:mt-12 mt-4 flex items-center md:gap-8 gap-4;
+
+            @media (max-width: 767px) {
+
+            }
+
+            img {
+                max-height: 24px;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.default-form .form-field .form-label {
+  @apply text-black mb-1 block; }
+.default-form .form-field .form-input, .default-form .form-field input[type=tel] {
+  border: 1px solid var(--grey-color);
+  @apply rounded px-4 py-2.5 w-full; }
+  .default-form .form-field .form-input::placeholder, .default-form .form-field input[type=tel]::placeholder {
+    color: var(--grey-color); }
+  .default-form .form-field .form-input:focus, .default-form .form-field input[type=tel]:focus {
+    border-color: var(--secondary-color);
+    --tw-ring-color: none; }
+.default-form .form-field .PhoneInputCountry {
+  border: 1px solid var(--grey-color);
+  @apply rounded px-2 w-16; }
+.default-form .form-field .css-t3ipsp-control {
+  border-color: var(--secondary-color); }
+.default-form .form-field .css-13cymwt-control, .default-form .form-field .css-t3ipsp-control {
+  min-height: auto;
+  box-shadow: none !important; }
+  .default-form .form-field .css-13cymwt-control:focus, .default-form .form-field .css-13cymwt-control:hover, .default-form .form-field .css-t3ipsp-control:focus, .default-form .form-field .css-t3ipsp-control:hover {
+    border-color: var(--secondary-color);
+    box-shadow: none !important; }
+  .default-form .form-field .css-13cymwt-control .css-art2ul-ValueContainer2, .default-form .form-field .css-t3ipsp-control .css-art2ul-ValueContainer2 {
+    @apply px-3 py-2; }
+.default-form .form-field.checkbox-field {
+  @apply flex items-center; }
+  .default-form .form-field.checkbox-field .form-checkbox {
+    border: 1px solid var(--grey-color);
+    color: var(--secondary-color);
+    @apply rounded-md w-6 h-6; }
+    .default-form .form-field.checkbox-field .form-checkbox:focus, .default-form .form-field.checkbox-field .form-checkbox:checked {
+      border-color: var(--secondary-color);
+      @apply rounded-md w-6 h-6;
+      --tw-ring-color: none; }
+  .default-form .form-field.checkbox-field .text {
+    @apply ml-2.5; }
+.default-form .form-field.radio-field {
+  @apply flex items-center; }
+  .default-form .form-field.radio-field .form-radio {
+    border-color: var(--grey-color);
+    color: var(--secondary-color);
+    @apply w-6 h-6; }
+    .default-form .form-field.radio-field .form-radio:focus, .default-form .form-field.radio-field .form-radio:checked {
+      border-color: var(--secondary-color);
+      --tw-ring-color: var(--secondary-color); }
+  .default-form .form-field.radio-field .text {
+    @apply ml-2.5; }
+
+/*# sourceMappingURL=form.css.map */

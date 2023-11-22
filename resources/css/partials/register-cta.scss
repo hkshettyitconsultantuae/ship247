@@ -1,0 +1,53 @@
+.register-cta {
+    background-color: var(--secondary-color);
+    @apply md:flex items-center py-8 md:px-24 px-6 xl:my-32 my-14 xl:mx-20 gap-5;
+    border-radius: 40px;
+
+    .inner {
+        @apply sm:flex items-center;
+
+        .icon {
+            width: 80px;
+
+            img {
+                @apply md:mx-0 mx-auto md:mb-0 mb-4;
+            }
+
+            @media (max-width: 767px) {
+                width: 50px;
+                margin: 0 auto;
+            }
+        }
+
+        .content {
+            @apply sm:mx-8 md:text-left text-center;
+
+            .default-heading {
+                @apply md:mb-2 mb-3 leading-none;
+            }
+
+            .default-content {
+                font-size: clamp(16px, 2vw, 18px);
+            }
+        }
+    }
+
+    .register-button {
+        @apply bg-white py-5 px-10 uppercase block text-center md:mt-0 mt-5;
+        font-family: var(--primary-font-bold);
+        font-size: 24px;
+        border-radius: 40px;
+        min-width: 260px;
+        color: var(--primary-color);
+        box-shadow: 0px 2px 6px rgba(44, 30, 63, .7);
+
+        @media (max-width: 767px) {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            font-size: 20px;
+        }
+    }
+}

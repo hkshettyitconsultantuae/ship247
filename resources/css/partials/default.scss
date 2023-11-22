@@ -1,0 +1,319 @@
+.primary-bg {
+    background-color: var(--primary-color);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.primary-font-light {
+    font-family: var(--primary-font-light);
+}
+
+.primary-font-regular {
+    font-family: var(--primary-font-book);
+}
+
+.primary-font-medium {
+    font-family: var(--primary-font-medium);
+}
+
+.primary-font-bold {
+    font-family: var(--primary-font-bold);
+}
+
+.secondary-font-regular {
+    font-family: var(--secondary-font-bold);
+}
+
+.sea-color {
+    color: #F0E9FF;
+}
+
+.sea-bg {
+    background-color: #F0E9FF;
+}
+
+.land-color {
+    color: #E9FFF1;
+}
+
+.land-bg {
+    background-color: #E9FFF1;
+}
+
+.air-color {
+    color: #E9F2FF;
+}
+
+.air-bg {
+    background-color: #E9F2FF;
+}
+
+body {
+    background-color: var(--lgrey-color);
+    font-family: var(--primary-font-book);
+    color: var(--primary-color);
+    overflow-x: hidden;
+}
+
+// Heading Styles
+.default-heading {
+    font-size: clamp(26px, 4vw, 36px);
+    @apply font-bold uppercase md:mb-[40px] mb-[36px] leading-tight;
+    font-family: var(--secondary-font-bold);
+
+    &.small-heading {
+        font-size: clamp(24px, 4vw, 30px);
+    }
+
+    &.white {
+        @apply text-white;
+    }
+
+    &.small-size {
+        @apply text-xl;
+    }
+
+    &.small-margin {
+        @apply mb-auto;
+    }
+}
+
+.default-subheading {
+    font-size: clamp(18px, 2vw, 24px);
+    @apply uppercase;
+    font-family: var(--primary-font-bold);
+
+    &.white {
+        @apply text-white;
+    }
+}
+
+.heading-style-v1 {
+    @apply bg-no-repeat mb-14;
+    // background-image: url(../../images/svg/heading-pattern.svg);
+    // background-position: left center;
+
+    @media (max-width: 767px) {
+        @apply mb-7;
+    }
+
+    .title {
+        font-size: clamp(38px, 4vw, 70px);
+        @apply font-bold uppercase leading-none mb-2;
+        font-family: var(--secondary-font-bold);
+    }
+    .subtitle {
+        color: var(--secondary-color);
+        font-family: var(--primary-font-bold);
+        @apply uppercase tracking-[2px] font-bold;
+        font-size: clamp(18px, 2vw, 20px);
+    }
+}
+
+.default-content {
+    @apply text-black;
+
+    &.white {
+        @apply text-white;
+    }
+}
+
+.default-button {
+    @apply inline-flex items-center pb-1 pr-8 relative text-base font-bold uppercase text-white transition-all;
+    // border-bottom: 2px solid var(--secondary-color);
+    font-family: var(--primary-font-bold);
+
+    // &:hover {
+    //     @apply pr-8;
+    // }
+
+    &:before {
+        content: '';
+        @apply absolute bottom-0 left-0 w-full;
+        height: 2px;
+        background-color: var(--secondary-color);
+        transition: 0.2s;
+    }
+
+    &:after {
+        content: '';
+        background-image: url(/images/svg/button-arrow.svg);
+        @apply bg-no-repeat absolute right-1 top-1 h-3.5 w-3.5;
+        transition: 0.4s;
+    }
+
+    &:hover {
+        &:before {
+            bottom: 3px;
+        }
+
+        &:after {
+            @apply -right-1;
+        }
+    }
+
+    &.red {
+        @apply text-black;
+
+        &:after {
+            background-image: url(/images/svg/button-arrow-red.svg);
+        }
+    }
+
+    &.small-button {
+        @apply text-sm pr-6;
+
+        // &:hover {
+        //     @apply pr-8;
+        // }
+    }
+}
+
+.default-button-v2 {
+    background-color: var(--secondary-color);
+    @apply text-white uppercase p-4 inline-flex items-center justify-center relative text-sm overflow-hidden min-w-[160px];
+    font-family: var(--primary-font-bold);
+    border-radius: 40px;
+
+    span {
+        position: relative;
+        z-index: 2;
+    }
+
+    &.small-button {
+        @apply text-xs py-2 px-5;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 0;
+        background-color: white;
+        border-radius: 40px;
+        transition: width 0.5s;
+        z-index: 1;
+    }
+
+    &:hover{
+        color: var(--secondary-color);
+
+        &:after {
+            width: 100%;
+        }
+    }
+
+    &.outline-button {
+        border: 1px solid var(--secondary-color);
+        background-color: transparent;
+        color: var(--secondary-color);
+        
+        &:after {
+            background-color: var(--secondary-color);
+        }
+
+        &:hover{
+            color: white;
+    
+            &:after {
+                width: 100%;
+            }
+        }
+
+        &.white-button {
+            color: white;
+            border-color: white;
+        }
+    }
+
+    @media (max-width: 767px) {
+        @apply text-center;
+        min-width: 220px;
+    }
+
+    &.primary-bg {
+        background-color: var(--primary-color);
+
+        &:hover{
+            color: var(--primary-color);
+        }
+    }
+}
+
+.invoice-button {
+    background-color: var(--primary-color);
+    @apply text-white uppercase px-3 py-6 inline-block relative;
+    font-family: var(--primary-font-bold);
+    border-radius: 40px;
+
+    &.small {
+        @apply text-xs py-3 px-5;
+    }
+
+    span {
+        position: relative;
+        z-index: 2;
+    }
+
+    &.small {
+        @apply text-xs py-3 px-5;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 0;
+        background-color: white;
+        border-radius: 40px;
+        transition: width 0.5s;
+        z-index: 1;
+    }
+
+    &:hover{
+        color: var(--primary-color);
+
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+.shadow-box {
+    @apply md:p-10 p-6 bg-white rounded-xl;
+    box-shadow: 0px 2px 6px rgba($color: #000000, $alpha: 0.1);
+
+    &.large-radius {
+        border-radius: 40px
+    }
+
+    &.large-spacing {
+        @apply lg:px-14 px-6 pb-10;
+    }
+
+    &.small-box {
+        @apply p-6;
+    }
+
+    &.xsmall-box {
+        @apply p-4;
+    }
+}
+
+.default-container {
+    @apply lg:mx-8 mx-4;
+}
